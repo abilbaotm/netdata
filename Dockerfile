@@ -1,7 +1,8 @@
 # author  : titpetric
 # original: https://github.com/titpetric/netdata
 
-FROM debian:jessie
+#FROM debian:jessie
+FROM resin/rpi-raspbian
 
 ADD . /netdata.git
 
